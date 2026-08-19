@@ -1,0 +1,5 @@
+apiVersion: networking.gke.io/v1
+kind: ServiceExport
+metadata:
+  name: web
+  namespace: default
